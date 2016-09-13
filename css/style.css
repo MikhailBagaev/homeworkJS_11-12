@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    padding-bottom: 100px;
+}
+.wrapper {
+    width: 89%;
+    margin: 0 auto;
+    position: relative;    
+}
+
+/*CAROUSEL*/
+h1 {
+    color: #aaa;
+    margin-top: 20px;
+    width: 300px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;    
+    background: #ccc;
+    border-radius: 2px;   
+    padding: 60px 0;
+    margin: 40px auto 20px;
+    
+}
+.jcarousel ul li {
+    /*width: 288px;*/
+    box-sizing: border-box;    
+    text-align: center;
+    background: #000;
+    color: #fff;    
+    font-family: sans-serif;
+    /*border-width: 1px;
+    border-color: #fff; */     
+    border-style: solid;
+}
+.jcarousel img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;    
+}
+.jcarousel-prev,
+.jcarousel-next {
+    position: absolute;
+    top: 45%;
+    border: 2px solid #fff;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    opacity: 0.6;
+    text-decoration: none;
+    color: #fff;    
+    text-align: center;    
+    display: block;
+    box-sizing: border-box; 
+    padding-top: 15px;
+    text-transform: uppercase;     
+}
+.jcarousel-prev {
+    left: -2%;
+}
+.jcarousel-next {
+    right: -2%;
+}
+.jcarousel-prev:hover,
+.jcarousel-next:hover {
+    opacity: 1;
+} 
+.invisible {
+    opacity: 0;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel li {    
+    float: left;
+}
+a.active {
+    background: #ccc;
+}
+/*RESIG*/
+
+.resig img {
+    width: 200px;
+    height: 112.5px;
+    float: left;
+}
+.resig h2 {
+    background: #ccc;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    padding-left: 40px;    
+}
+.resig p {
+    width: 78.65%;
+    height: 102.5px;
+    padding: 5px 10px;    
+    float: right;
+    background: #ccc;
+    color: #000;
+    overflow: hidden;    
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.link {
+    display: block;
+    padding-top: 2px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    background: #ccc;
+    color: #000;
+    float: right;
+    margin: 10px 0 0 10px;
+}
+.link:hover {
+    background: #aaa;
+    color: #fff;
+}
